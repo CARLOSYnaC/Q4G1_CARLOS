@@ -1,18 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <link rel="stylesheet" href="styles.css">
-   <style>
-      div {
-      border: 5px solid RosyBrown;
-  margin-top: 150px;
-  margin-bottom: 150px;
-  margin-right: 150px;
-  margin-left: 150px;
-  background-color: Thistle;
-      }
-   </style>
-</head>
-<body>
-  </body>
-</html>
+body {
+   font-family: "Times New Roman", Times, serif;
+   background: #BC8F8F;
+   margin: 0;
+   padding: 40px;
+}
+h1 {
+   text-align: center;
+   color: #FFFACD;
+}
+form {
+   background: #FFE4E1;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   margin-bottom: 20px;
+}
+label {
+   display: block;
+   margin-top: 15px;
+   font-weight: bold;
+   color: #BC8F8F;
+}

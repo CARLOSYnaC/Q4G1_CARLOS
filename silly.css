@@ -21,3 +21,22 @@ label {
    font-weight: bold;
    color: #BC8F8F;
 }
+input {
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+button {
+   margin-top: 15px;
+   padding: 10px 15px;
+   background: #FFE4E1;
+   color: Sienna;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+    }
+button:hover {
+      background: #FFB6C1;
+}

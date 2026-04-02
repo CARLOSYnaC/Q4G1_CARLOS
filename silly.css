@@ -4,10 +4,12 @@ body {
    margin: 0;
    padding: 40px;
 }
+
 h1 {
    text-align: center;
    color: #FFFACD;
 }
+
 form {
    background: #FFE4E1;
    padding: 20px;
@@ -15,12 +17,14 @@ form {
    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
    margin-bottom: 20px;
 }
+
 label {
    display: block;
    margin-top: 15px;
    font-weight: bold;
    color: #BC8F8F;
 }
+
 input {
    width: 100%;
    padding: 8px;
@@ -28,6 +32,7 @@ input {
    border: 1px solid #ccc;
    border-radius: 4px;
 }
+
 button {
    margin-top: 15px;
    padding: 10px 15px;
@@ -36,13 +41,33 @@ button {
    border: none;
    border-radius: 4px;
    cursor: pointer;
-    }
+}
+    
 button:hover {
       background: #FFB6C1;
 }
+
 .movierating-list {
    background: ##FFE4E1;
    padding: 15px;
    border-radius: 8px;
    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.movie {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.movie:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
 }

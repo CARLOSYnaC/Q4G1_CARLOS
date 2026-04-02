@@ -1,4 +1,4 @@
- let movieRatings = JSON.parse(localStorage.getItem("movieRatings"));
+let movieRatings = JSON.parse(localStorage.getItem("movieRatings"));
 
 function showMovies() {
   const list = document.getElementById("movieList");
@@ -34,4 +34,4 @@ function removeMovie(key) {
   showMovies();
 }
 
-    showMovies();
+   return showMovies();
